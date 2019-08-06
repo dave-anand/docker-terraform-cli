@@ -46,6 +46,7 @@ docker exec -it docker-terraform-cli terraform --version
 ## References
 
 [Terraform Documentation](https://www.terraform.io/docs/cli-index.html)
+[Terraform CLI Credentials Configuration Documentation](https://www.terraform.io/docs/commands/cli-config.html#credentials)
 
 # License
 
