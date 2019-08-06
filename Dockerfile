@@ -17,4 +17,4 @@ RUN \
 
 # Config - Terraform
 ENV TF_DATA_DIR "/root/.terraform"
-
+COPY dot_terraformrc /root/.terraformrc
