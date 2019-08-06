@@ -12,7 +12,7 @@ docker build -t anand000/docker-terraform-cli .
 
 ## Example usage
 
-> The examples below assume resources are created within an existing AWS account.
+> The example below (keys) assumes an existing AWS account.
 
 
 **Ensure the following are set**
