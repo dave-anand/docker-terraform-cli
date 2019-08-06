@@ -16,5 +16,5 @@ RUN \
     && rm /tmp/terraform.zip
 
 # Config - Terraform
-ENV TF_DATA_DIR "/.terraform"
+ENV TF_DATA_DIR "/root/.terraform"
 
