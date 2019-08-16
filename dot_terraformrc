@@ -1,1 +1,3 @@
-credentials "app.terraform.io" {}
+credentials "app.terraform.io" {
+  token = "TOKEN_PLACEHOLDER"
+}
