@@ -1,6 +1,6 @@
 FROM anand000/docker-aws-cli
 
-# Terraform
+# Get - Terraform
 RUN \
     export TERRAFORM_CURRENT_BIN=$( \
     echo "$(curl -s https://checkpoint-api.hashicorp.com/v1/check/terraform | \
@@ -22,4 +22,5 @@ RUN \
 ENV TF_DATA_DIR "/root/.terraform"
 COPY dot_terraformrc /root/.terraformrc
 
+# Entrypoint
 ENTRYPOINT /bin/bash
