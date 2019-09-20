@@ -1,6 +1,6 @@
 # Terraform Docker Container
 
-This is a containerized Terraform CLI based on `anand000/docker-aws-cli`.
+This is a *containerized* Terraform CLI based on `anand000/docker-aws-cli` that also set up for use with Terraform Cloud (via `.terraformrc`).
 
 > This container includes the AWS CLI.
 
